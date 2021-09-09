@@ -1,1 +1,0 @@
-# Galery_CSS
