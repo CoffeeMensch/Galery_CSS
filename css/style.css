@@ -68,16 +68,18 @@ h1, h2, h3, h4, h5h, h6 {
     font-weight: inherit;
 }
 
-body {
-    background: #e8e8e8
+#body {
+    background: #e8e8e8;
+    height:5000px;
 
 }
+
 .div_right {
     background: #6FB9B3;
     height: 4px;
     width: 1415px;
     transform: rotate(-45deg);
-    animation: anim_div2 4s;
+   /* animation: anim_div2 4s;*/
     position: absolute;
     margin-top: 318px;
     margin-left: -389px;
@@ -86,25 +88,23 @@ body {
 
 @keyframes anim_div2 {
     0% {
-        /*margin-top: 950px;
-        margin-left: -1026px;*/
         margin-top: 1294px;
         margin-left: -1362px;
 
     }
-
     100% {
 
         margin-top: 318px;
         margin-left: -389px;
     }
 }
+
 .div_left {
     background: #6FB9B3;
     height: 4px;
     width: 1415px;
     transform: rotate(-45deg);
-    animation: anim_div 4s;
+    /*animation: anim_div 4s;*/
     position: absolute;
     margin-top: 259px;
     margin-left: -206px;
@@ -115,6 +115,16 @@ body {
     0% {
         margin-top: -1156px;
         margin-left: 1209px;
+    }
+
+    40% {
+        margin-top: 459px;
+        margin-left: -406px;
+    }
+
+    65% {
+        margin-top: 159px;
+        margin-left: -106px;
     }
     100% {
 
